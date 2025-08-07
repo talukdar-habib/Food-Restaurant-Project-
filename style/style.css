@@ -20,6 +20,7 @@
     border-radius: 8px;
     background: rgb(82, 195, 3);
     border: none;
+    cursor: pointer;
 }
 
 #hero{
@@ -70,5 +71,87 @@
     letter-spacing: 0%;
     text-align: center;
     opacity: 0.7;
-    margin-bottom: 28px;
+    margin-bottom: 30px;
+}
+
+#card-box{
+    width: 940px;
+    margin: 50px auto;
+}
+.card-info .subtitle{
+    color: rgba(16, 16, 16, 1);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 0px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+
+.card-info .title{
+    color: rgba(16, 16, 16, 1);
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    /* border: 1px solid black; */
+}
+.card-container .img-box{
+    width: 300px;
+}
+.card-container .img-box img{
+    width: 100%;
+}
+.card{
+    width: 300px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card .subtitle{
+    padding: 16px 20px 16px 20px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    color: rgba(16, 16, 16, 1);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 0px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.card .title{
+    color: rgba(16, 16, 16, 1);
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 0px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.card .description{
+    color: rgba(16, 16, 16, 1);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+    margin-top: 18px;
 }
